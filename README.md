@@ -6,7 +6,7 @@
 
 Download the project
 ```
-https://github.com/ravis24/mikeLegal.git
+git clone https://github.com/ravis24/mikeLegal.git
 ```
 
 create a Virtual environment
