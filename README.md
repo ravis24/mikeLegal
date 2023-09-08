@@ -49,7 +49,7 @@ Run Celery Beat Server
 ```
 App run every day at 11:47 
 ```
-if you want to change time change hour and minute value
+if you want to change time go to celery.py file and change hour and minute value
 ```
   
 API
