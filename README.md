@@ -47,11 +47,13 @@ Run Celery Beat Server
 ```bash
   celery -A mikeLegal beat --loglevel=info
 ```
-
+App run every day at 11:47 
+  "if you want to change time change hour and minute value"
+  
 API
 ```
-    http://127.0.0.1:8000/api/add_subscriber/
-    http://127.0.0.1:8000/api/unsubscribe/
+    http://127.0.0.1:8000/api/add_subscriber/ - POST Method (data {email,first_name}) - to add subscriber
+    http://127.0.0.1:8000/api/unsubscribe/ - POST Method (data {email}) - to unsbscribe user
 ```
 
 
