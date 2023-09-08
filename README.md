@@ -48,7 +48,9 @@ Run Celery Beat Server
   celery -A mikeLegal beat --loglevel=info
 ```
 App run every day at 11:47 
-  "if you want to change time change hour and minute value"
+```
+if you want to change time change hour and minute value
+```
   
 API
 ```
